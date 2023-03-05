@@ -45,8 +45,6 @@ The Food Ordering Portal supports two types of accounts: vendors and customers.
 cd Food-Ordering-Portal
 ```
 
-### I. No-Docker Setup
-
 #### Backend
 
 1. From the cloned directory, run `cd backend` and run the following commands:
@@ -77,25 +75,3 @@ npm start
 ```
 
 The frontend will start on port 3000. Head over to http://localhost:3000 to view the application.
-
-### II. Docker Setup
-
-1. From the cloned directory, run `cd backend` and run the following command:
-```bash
-cp .env.template .env
-```
-
-2. Fill in the details in the newly created `.env` file, and save it. This is an essential step, as it contains the credentials for the database.
-
-3. Now, all you need to do is run the following command from the root of the cloned directory:
-```bash
-cd ..
-docker-compose up -d
-```
-The application will now be running on http://localhost:80.
-
-Running
-```bash
-docker-compose down
-```
-will stop the application.
