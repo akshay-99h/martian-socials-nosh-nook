@@ -1,8 +1,4 @@
-# Food Ordering Portal
-
-<p align="center">
-<img src="images/preview_1.png">
-</p>
+# Martian Socials Nosh Nook
 
 The Food Ordering Portal is a web application built using the MERN stack that allows:
 
