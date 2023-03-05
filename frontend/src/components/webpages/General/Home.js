@@ -14,15 +14,23 @@ const Home = () => {
                 matches ?
                     <div className="welcome-page">
                         <Spline scene="https://prod.spline.design/XBgGDAHTrMH1APWP/scene.splinecode" />
+                        
+ const myStyle={
+        backgroundImage: "url(/martian-socials-nosh-nook\images\BG_mars)",
+
                         <Typography className="welcome-heading" variant="h2" component="h1">
                             Welcome to Martian Social's Nosh Nook!
                         </Typography>
                         <Typography variant="h6" component="h1">
                             Please login or register to continue
                         </Typography>
+                        <BuyerDashboard />
                     </div>
+                    
                     :
+                    
                     <div className="welcome-page">
+                        <BuyerDashboard />
                         <Typography className="welcome-heading" variant="h4" component="h1">
                             Welcome to the Food Ordering Portal
                         </Typography>

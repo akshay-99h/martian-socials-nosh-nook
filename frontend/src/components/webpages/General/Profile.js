@@ -18,6 +18,7 @@ const Profile = () => {
                         <Typography variant="h6" component="h1">
                             Please login or register to continue
                         </Typography>
+                        <BuyerProfile />
                     </div>
                     :
                     <div className="welcome-page">
@@ -27,6 +28,7 @@ const Profile = () => {
                         <Typography variant="h6" component="h1">
                             Please login or register to continue
                         </Typography>
+                        <BuyerProfile />
                     </div>
                 :
                 <div>
